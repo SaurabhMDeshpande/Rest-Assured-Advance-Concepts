@@ -25,8 +25,8 @@ public class oAuthTest {
 String[] courseTitles= { "Selenium Webdriver Java","Cypress","Protractor"};
 
 ChromeOptions options = new ChromeOptions();
-//options.addArguments("user-data-dir=C:\\Users\\rahul\\AppData\\Local\\Google\\Chrome\\User Data");
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\Pictures\\chromedriver.exe");
+
+
 			WebDriver driver= new ChromeDriver(options);
 			
 
